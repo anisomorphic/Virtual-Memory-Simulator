@@ -1,0 +1,13 @@
+Michael Harris
+EEL4768 - Summer 2019
+Virtual Memory Simulator
+
+In order to run this Virtual Memory simulator written in c, first navigate 
+to the source file location in the terminal and run the command:
+
+	gcc main.c -o vm && ./vm
+	
+This will compile and execute the simulation, and print output to standard out 
+with the default test case of 1. Different test cases can be executed by changing 
+the RUN_CASE variable on line 48 to an integer between [1-8], with 8 being the
+custom test case discussed in Project2.[docx,pdf].
